@@ -115,8 +115,8 @@ public class OfferItem {
 	/**
 	 * 
 	 * @param other
-	 * @param delta
-	 *            acceptable percentage difference
+	 * @param delta  acceptable percentage difference
+	 *
 	 * @return
 	 */
 	public boolean sameAs(OfferItem other, double delta) {

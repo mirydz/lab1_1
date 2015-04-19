@@ -7,8 +7,7 @@ public class Offer {
 private List<OfferItem> availabeItems = new ArrayList<OfferItem>();
 	
 	private List<OfferItem> unavailableItems = new ArrayList<OfferItem>();
-	
-	
+
 	public Offer(List<OfferItem> availabeItems, List<OfferItem> unavailableItems) {
 		this.availabeItems = availabeItems;
 		this.unavailableItems = unavailableItems;

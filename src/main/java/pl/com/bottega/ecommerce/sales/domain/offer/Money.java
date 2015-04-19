@@ -19,7 +19,6 @@ public class Money {
         this.amount = amount;
     }
 
-
     public String getCurrency() {
         return currency;
     }
@@ -33,6 +32,5 @@ public class Money {
             return -1;
 
         return this.amount.compareTo(other.getAmount());
-
     }
 }
